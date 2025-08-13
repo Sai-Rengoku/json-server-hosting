@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Soumya",
+      "email": "soumya@example.com",
+      "age": 28,
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Anya",
+      "email": "anya@example.com",
+      "age": 24,
+      "role": "editor"
+    },
+    {
+      "id": "3",
+      "name": "Rajesh",
+      "email": "rajesh@example.com",
+      "age": 32,
+      "role": "viewer"
+    },
+    {
+      "id": "4",
+      "name": "Priya",
+      "email": "priya@example.com",
+      "age": 26,
+      "role": "editor"
+    },
+    {
+      "id": "5",
+      "name": "Karan",
+      "email": "karan@example.com",
+      "age": 35,
+      "role": "admin"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Hello World",
+      "content": "This is my first post",
+      "likes": 10
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "title": "React Tips",
+      "content": "Some useful React tricks and tips",
+      "likes": 25
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "title": "GraphQL Basics",
+      "content": "Introduction to GraphQL",
+      "likes": 15
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "title": "Node.js Streams",
+      "content": "Understanding streams in Node.js",
+      "likes": 8
+    },
+    {
+      "id": "5",
+      "userId": 4,
+      "title": "CSS Grid Magic",
+      "content": "Making layouts with CSS Grid",
+      "likes": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "userId": 2,
+      "content": "Nice post!"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "userId": 3,
+      "content": "Thanks for sharing"
+    },
+    {
+      "id": "3",
+      "postId": 2,
+      "userId": 1,
+      "content": "Great tips!"
+    },
+    {
+      "id": "4",
+      "postId": 3,
+      "userId": 4,
+      "content": "Very helpful"
+    },
+    {
+      "id": "5",
+      "postId": 5,
+      "userId": 5,
+      "content": "Love CSS Grid"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 1200,
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "price": 800,
+      "inStock": true
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": 150,
+      "inStock": false
+    },
+    {
+      "id": "4",
+      "name": "Monitor",
+      "price": 300,
+      "inStock": true
+    },
+    {
+      "id": "5",
+      "name": "Keyboard",
+      "price": 70,
+      "inStock": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "status": "shipped"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": 2,
+      "quantity": 2,
+      "status": "processing"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "productId": 3,
+      "quantity": 1,
+      "status": "delivered"
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "productId": 5,
+      "quantity": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "productId": 4,
+      "quantity": 1,
+      "status": "shipped"
+    }
+  ]
+}
