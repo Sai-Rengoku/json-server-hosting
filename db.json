@@ -35405,5 +35405,37 @@
       "id": "54",
       "name": "Santol"
     }
+  ],
+  "zustandTodos": [
+    {
+      "id": 1,
+      "text": "Learn Zustand",
+      "completed": false,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "text": "Integrate Zustand with React app",
+      "completed": false,
+      "createdAt": "2024-02-15T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "text": "Persist Zustand state with middleware",
+      "completed": true,
+      "createdAt": "2024-03-10T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "text": "Add filtering and sorting for todos",
+      "completed": false,
+      "createdAt": "2024-04-05T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "text": "Connect JSON Server API to Zustand store",
+      "completed": true,
+      "createdAt": "2024-05-01T00:00:00.000Z"
+    }
   ]
 }
